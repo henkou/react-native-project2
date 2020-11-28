@@ -28,7 +28,7 @@ const MenuCard: FunctionComponent<Props> = ({ title, name, kcal, date }) => {
     );
 };
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
     cardWrapper: {},
     cardTitle: {
         paddingTop: 16,
