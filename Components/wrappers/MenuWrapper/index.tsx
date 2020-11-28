@@ -7,6 +7,9 @@ interface Props {}
 const MenuWarpper: FunctionComponent<Props> = () => {
     return (
         <View>
+            <View>
+                <Text></Text>
+            </View>
             <MenuCard
                 title={'아침'}
                 name={'짜장면'}
