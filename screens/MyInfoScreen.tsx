@@ -5,13 +5,13 @@ import GlobalStyles from '../styles/GlobalStyles';
 interface Props {}
 
 const MyInfoScreen: FunctionComponent<Props> = () => {
-    return (
-        <SafeAreaView style={GlobalStyles.androidSafeArea}>
-            <View>
-                <Text>MyInfo Screen</Text>
-            </View>
-        </SafeAreaView>
-    );
+  return (
+    <SafeAreaView style={GlobalStyles.androidSafeArea}>
+      <View>
+        <Text>MyInfo Screen</Text>
+      </View>
+    </SafeAreaView>
+  );
 };
 
 export default MyInfoScreen;

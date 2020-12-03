@@ -2,23 +2,18 @@ import React, { FunctionComponent } from 'react';
 import { AntDesign } from '@expo/vector-icons';
 
 interface Props {
-    size?: number;
-    color?: string;
+  size?: number;
+  color?: string;
 }
 
-const MapIcon: FunctionComponent<Props> = ({
-    size = 24,
-    color = '#000',
-    ...otherProps
+const AddIcon: FunctionComponent<Props> = ({
+  size = 24,
+  color = '#000',
+  ...otherProps
 }) => {
-    return (
-        <AntDesign
-            name="pluscircleo"
-            size={size}
-            color={color}
-            {...otherProps}
-        />
-    );
+  return (
+    <AntDesign name="pluscircleo" size={size} color={color} {...otherProps} />
+  );
 };
 
-export default MapIcon;
+export default AddIcon;

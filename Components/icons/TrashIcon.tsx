@@ -10,9 +10,7 @@ const TrashIcon: FunctionComponent<Props> = ({
     color = '#000',
     ...otherProps
 }) => {
-    return (
-        <FontAwesome name="trash" size={size} color={color} {...otherProps} />
-    );
+    return <FontAwesome name="trash" size={size} color={color} {...otherProps} />;
 };
 
 export default TrashIcon;

@@ -7,11 +7,11 @@ import TrashIcon from './TrashIcon';
 import AddIcon from './AddIcon';
 
 export {
-    HomeIcon,
-    MyInfoIcon,
-    MapIcon,
-    CheckSquareIcon,
-    SquareIcon,
-    TrashIcon,
-    AddIcon,
+  HomeIcon,
+  MyInfoIcon,
+  MapIcon,
+  CheckSquareIcon,
+  SquareIcon,
+  TrashIcon,
+  AddIcon,
 };

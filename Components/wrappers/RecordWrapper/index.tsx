@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 
 interface Props {}
 
-const RecordWarpper: FunctionComponent<Props> = () => {
+const RecordWrapper: FunctionComponent<Props> = () => {
     return (
         <View>
             <Text>RecordWrapper</Text>
@@ -13,4 +13,4 @@ const RecordWarpper: FunctionComponent<Props> = () => {
 
 StyleSheet.create({});
 
-export default RecordWarpper;
+export default RecordWrapper;
